@@ -1,14 +1,11 @@
 ## ASC White Point / CCT+Tint controller for grandMA3 (v1.5)
 
 <em>Created by:
-Tom Howard
-Spectre Lighting, Inc.
+Tom Howard<br>
+Spectre Lighting, Inc.<br>
 Last updated: March 2026</em>
 
-The purpose of this script is to allow you to run your fixtures in their native CIE xy profiles
-and give you the tools to adjust CCT and Tint along the Planckian locus.
-References ASC White Point LUT data, published by Tim Kang,
-and expanded to include CCTs for every 100K, and Tint values for every 1/8th.
+<p>The purpose of this script is to allow you to run your fixtures in their native CIE xy profiles and give you the tools to adjust CCT and Tint along the Planckian locus. References ASC White Point LUT data, published by Tim Kang, and expanded to include CCTs for every 100K, and Tint values for every 1/8th.</p>
 
 Do not run this plug-in directly within MA3.
 Instead, you will use separate Macros in MA3 that will call specific functions in this script.
@@ -16,13 +13,13 @@ The functions in this script will read the current CIE_X and CIE_Y values of you
 It will then locate the nearest coordinate on the LUT table, and then adjust your fixture in the desired direction
 Note: If your Fixture Profile types use another attribute other than "CIE_X" and "CIE_Y", the script needs to be adjusted.
 
-> ============================================================
+_____________________________________________________________
                           MACROS 
             Create these in your MA3 Showfile
              Or import them from this package
       (Feel free to change the labels of the Macros,
      as long as the macro script line remains the same)
-> ============================================================
+_____________________________________________________________
 
 Macro 1: "+100K CCT"
   Line 1: Call Plugin "ASC White Point" "CCT_UP"
