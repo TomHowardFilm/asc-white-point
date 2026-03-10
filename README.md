@@ -21,26 +21,26 @@ _____________________________________________________________
      as long as the macro script line remains the same)
 _____________________________________________________________
 
-Macro 1: "+100K CCT"
-  Line 1: Call Plugin "ASC White Point" "CCT_UP"
+Macro 1: "+100K CCT"<br>
+> Line 1: Call Plugin "ASC White Point" "CCT_UP"
 
-Macro 2: "-100K CCT"
-  Line 1: Call Plugin "ASC White Point" "CCT_DN"
+Macro 2: "-100K CCT"<br>
+> Line 1: Call Plugin "ASC White Point" "CCT_DN"
 
-Macro 3: "+1/8 Tint (greener)"
-  Line 1: Call Plugin "ASC White Point" "TINT_UP"
+Macro 3: "+1/8 Tint (greener)"<br>
+> Line 1: Call Plugin "ASC White Point" "TINT_UP"
 
-Macro 4: "-1/8 Tint (magenta)"
-  Line 1: Call Plugin "ASC White Point" "TINT_DN"
+Macro 4: "-1/8 Tint (magenta)"<br>
+> Line 1: Call Plugin "ASC White Point" "TINT_DN"
 
-Macro 5: "Neutral Tint"
-  Line 1: Call Plugin "ASC White Point" "NO_TINT"
+Macro 5: "Neutral Tint"<br>
+> Line 1: Call Plugin "ASC White Point" "NO_TINT"
 
-Macro 6: "What's my CCT"
-  Line 1: Call Plugin "ASC White Point" "REPORT"
+Macro 6: "What's my CCT"<br>
+> Line 1: Call Plugin "ASC White Point" "REPORT"
 
-Macro 7: "Input CCT"
-  Line 1: Call Plugin "ASC White Point" "INPUT"
+Macro 7: "Input CCT"<br>
+> Line 1: Call Plugin "ASC White Point" "INPUT"
 
 _____________________________________________________________
 
